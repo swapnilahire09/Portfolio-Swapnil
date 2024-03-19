@@ -1,0 +1,203 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.portfolio-sections{
+  height: 600px;
+  width: 100%;
+  background-color: white;
+}
+.navigation-bar{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
+ 
+}
+.navigation-bar img{
+  height: 40px;
+  margin-bottom: 10px;
+}
+.portfolio-sections h1{
+  margin-top: 10px;
+  text-align: center;
+  color: royalblue;
+}
+html{
+  scroll-behavior: smooth;
+}
+.main-container{
+  position: relative;
+  top:50px;
+}
+.brand{
+  font-size: 30px;
+  font-family: Arial Black;
+  font-variant: small-caps;
+  color: orangered;
+}
+.navmenu{
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  padding-left: 15px;
+}
+.navmenu:hover{
+  text-decoration: underline 2px solid black;
+  text-underline-offset: 6px;
+ 
+}
+.tracking-in-expand {
+-webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+      animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#home{
+ height: 550px;
+ background-image: url("https://miro.medium.com/v2/resize:fit:1358/1*-ntL3Dsvc-dJ5cLGRtSuEw.gif");
+ background-repeat: no-repeat;
+ background-size:50%;
+ background-position:90% 50%;
+ border: none;
+}
+
+#home-info{
+  position: absolute;
+  top: 20px;
+  width: 400px;
+  height: 250px;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+.info{
+  font-weight: bolder;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+.designation{
+  color: royalblue;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.myname{
+  font-size: 35px;
+}
+.rsmbtn{
+  height: 40px;
+  width: 100px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size:15px;
+  font-weight: bolder;
+  background-color: royalblue;
+  color: white;
+  transition-duration: 1s;
+}
+.rsmbtn:hover{
+  background-color: white;
+  color: royalblue;
+  border: 3px solid royalblue;
+
+  transform: scale(1.1);
+}
+.colred{
+  color: red;
+}
+#about{
+  background-color: azure;
+  height: 500px;
+  width: 100%;
+}
+.about-main{
+  display: flex;
+}
+.about{
+  width: 100%;
+  margin: 5% 5%;
+}
+.about-img{
+  margin-left: 20%;
+}
+.about-info{
+  /* width: 60%;
+  margin-right: 20%; */
+  margin-top: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+  transform: scale(1.03);
+  cursor: pointer;
+}
+#skills{
+  height: 600px;
+  width: 100%;
+  background-color: white;
+}
+.tbl tr td{
+  padding: 40px;
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 5px royalblue; */
+  transition-duration: .5s;
+}
+.tbl{
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.skills-subheading{
+  color: orangered;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  font-variant: small-caps;
+}
+#project{
+  height: 700px;
+}
+.project-div{
+  margin-top: 50px;
+  margin-left: 10%;
+  width: 80%;
+}
+.card-title{
+  text-align: center;
+  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
